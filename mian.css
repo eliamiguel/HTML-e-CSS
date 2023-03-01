@@ -3,28 +3,75 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
-}
-body{
-  
-
+/*font-family: 'Ubuntu', sans-serif;*/
 }
 .container{
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
+  display: flexbox;
 }
-#section1{
+header nav ul li{ 
+display: inline;
+text-decoration: none;
+margin-left: 16px;
+}
+header nav li a{
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.container img{
+  width:400px;
+  height: 400px;
+  margin: 50px;
+}
+header .container, #sobre-mim .container{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-header{
-  background-color: azure;
+#sobre-mim h2, h3{
+  
+  line-height: 2em;
+  text-align: justify;
+}
+#sobre-mim p{
+  width: 400px;
+  margin: auto;
 }
 
-header img{
-  width: 480px;
-  height: 480px;
-  object-fit: contain;
+header{
+  
+  background-color: #b5a99965;
+  padding: 16PX;
+  font-family: 'Ubuntu', sans-serif;
+}
+hr{
+  margin: 50px 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+
+}
+#Curriculo .container h1{
+  margin-bottom: 50px;
+}
+#Curriculo .container li{
+  line-height: 2em;
+  text-align: justify;
+}
+#Curriculo .container h2{
+  text-align: left;
+}
+#projeto .container img{
+  width: 30%;
+ 
+}
+footer .container img{
+  width: 24px;
+  height: 24px;
+  margin: 0;
 }
