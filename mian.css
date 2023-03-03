@@ -5,11 +5,98 @@
   box-sizing: border-box;
 /*font-family: 'Ubuntu', sans-serif;*/
 }
-HTML,body{
-  min-height: 100vh;
-  height: 100vh;
-}
-section{
+header nav ul li{ 
+  display: inline;
+  text-decoration: none;
+  margin-left: 16px;
+  }
+  header nav li a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+  #sobre-mim .container img{
+    width:350px;
+    height: 350px;
+    object-fit: contain;
+  }
+  header{
+    background-color: #b5a99965;
+    padding: 16PX;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  header .container, #sobre-mim .container, #curriculo .container, #projetos .container,.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container {
+    padding: 16px 16px;
+   
+  }
+  .container p, h3, li{
+    line-height: 2em;
+    text-align: justify;
+    list-style: circle;
+    font-family: 'Ubuntu', sans-serif;
+    
+  }
+  .container h3{
+    font-size: 1.5em;
+    font-weight:bold ;
+  }
+  #curriculo .container h1{margin-top: 0;
+
+  }
+  .container h1, #projetos h1{
+    font-size: 2.5em;
+    padding: 16px 16px;}
+    form{
+      background-color: #b5a99965;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      
+    }
+    form input, form label, button, textarea{
+      display: block;
+      width: 350px;
+      margin-bottom: 5px;
+      padding: 8px;
+      border-radius: 6px;
+      
+    }
+    
+    form textarea {
+      height: 180px;
+      resize: none;
+      font-family: 'Ubuntu', sans-serif;
+    }
+    form button:hover{
+      background-color: #7a7369a3;
+    }
+    form button{
+      cursor: pointer;
+    }
+    footer .tel{
+      width: 350px;
+    }
+
+  footer .container img{
+      width: 24px;
+      height: 24px;
+      margin: 0;
+    }
+    footer{
+      background-color: #b5a99965;
+      
+    }
+
+  
+/*-------------------------------------------------------------------------------------------------------------*/
+
+/*section{
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
@@ -31,15 +118,16 @@ header nav li a{
   color: black;
 }
 .container img{
-  width:400px;
-  height: 400px;
-  margin: 50px;
+  width:350px;
+  height: 350px;
+  object-fit: cover;
 }
 header .container, #sobre-mim .container{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+........
 #sobre-mim h2, h3{
   line-height: 2em;
   text-align: justify;
@@ -47,13 +135,10 @@ header .container, #sobre-mim .container{
 #sobre-mim p{
   width: 500px;
   margin: auto;
+
 }
 
-header{
-  background-color: #b5a99965;
-  padding: 16PX;
-  font-family: 'Ubuntu', sans-serif;
-}
+
 hr{
   margin: 16px auto;
 }
@@ -99,12 +184,16 @@ form button:hover{
 form button{
   cursor: pointer;
 }
-#projetos .contain p,h3,img{
+#projetos .contain p,h3,h1, h2,img{
   width: 50%;
   line-height: 2em;
+  margin: 0 16px;
 }
+
+
 .container .infor h3,p{
   margin-bottom: 15px;
+  
 }
 
 footer{
@@ -119,3 +208,4 @@ footer .container img{
   height: 24px;
   margin: 0;
 }
+*/
