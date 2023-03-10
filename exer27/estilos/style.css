@@ -1,0 +1,23 @@
+@charset "UTF-8";
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+
+}
+header{
+  background-color: aqua;
+}
+nav li{
+  display: block;
+  background-color: gray;
+  width: 100vw;
+  margin: 1px;
+  padding: 10px ;
+
+}
