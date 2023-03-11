@@ -13,6 +13,7 @@ html,body{
   height: 100vh;
 }
 header{
+
   background-color: #196d6489;
   padding-top: 50px;
   
@@ -24,25 +25,42 @@ header h1{
   font-weight: bolder;
   text-align: center;
   padding-bottom: 50px;
+}
+
+.men{
+  display:grid;
+  justify-content: flex-end;
+ 
  
 }
-nav{
-  padding: 15px 5px;
 
+.m{
+  
+  padding: 15px;
+  width: 200px;
+  height: 65px;
+  background-color: ;
+  
+  border: 1px solid #196d6489 ;
+  border-collapse: collapse;
 }
-header nav a {
-  font-family: 'Concert One', cursive;
-  background-color: #00635A;
-  border-radius: 5px;
+.m a{
+  text-align: center;
   color: white;
   text-decoration: none;
   font-weight: bold;
-  padding: 8px;
+  font-family:'Concert One', cursive;
 }
-nav a:hover{
+.m:hover{
   background-color: #009688;
   border-radius: 5px;
 }
+span{
+  color: white;
+  width: 50px;
+  height: 30px;
+}
+
 .container{
   font-family: 'Concert One', cursive;
   width: 90vw;
